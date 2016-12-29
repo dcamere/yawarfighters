@@ -26,11 +26,13 @@ get_header(); ?>
         
         
     <main class="main">
+        <h3 class="danger" style="font-size:20px;text-align:left;">Aviso</h3>
 		<?php if($query->have_posts()): ?>
 			<?php while($query->have_posts()): $query->the_post(); ?>
 				<hr>
-				<?php the_title(); ?>
-				<?php the_content(); ?>
+                <p>
+    				<?php the_content(); ?>
+                </p>
 			<?php endwhile; ?>
 		<?php endif; ?> 
         <div class="flechita">

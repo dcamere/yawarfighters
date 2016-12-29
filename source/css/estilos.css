@@ -10,6 +10,10 @@
     font-family: Kings;
     src: url(../fonts/kings.ttf);
 }
+ul{
+	list-style: none;
+	color: white;
+}
 .danger{
 	font-family: 'Danger';
 	font-size: 45px;
