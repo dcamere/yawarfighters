@@ -54,40 +54,40 @@ get_header(); ?>
                         </div>
                     </div>
                     <div class="personaje">
-                        <h3 class="danger">Shaak</h3>
-                        <img src="../source/img/Shaak.jpg" alt="">
+                        <h3 class="danger"><?php the_field("character_name2"); ?></h3>
+                        <img src="<?php the_field("character_name2"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
-                            <p class="kings">Lord of the Piscan Valley, Shaak is multiple champion in the noble tournament of wrestling. The reflection of his armor makes him shine in the battlefield. </p>
+                            <p class="kings"><?php the_field("character_description2"); ?> </p>
                         </div>
                     </div>
                     <div class="personaje">
-                        <h3 class="danger">Ashan</h3>
-                        <img src="../source/img/Ashan.jpg" alt="">
+                        <h3 class="danger"><?php the_field("character_name3"); ?></h3>
+                        <img src="<?php the_field("character_image3"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
-                            <p class="kings">When he was a kid, he managed to defend his village from a little plesiosaur that attacked from the river. Ever since, he has wandered the entire realm to fight against demonic or ancestral beasts. He does not know that he has been targeted by demonic incarnations that seek to banish him.</p>
+                            <p class="kings"><?php the_field("character_description3"); ?></p>
                         </div>
                     </div>
                   </li>
                   <li class="pjslide">
                     <div class="personaje">
-                        <h3 class="danger apai">Liviak</h3>
-                        <img src="../source/img/Liviak.jpg" alt="">
+                        <h3 class="danger apai"><?php the_field("character_name4"); ?></h3>
+                        <img src="<?php the_field("character_image4"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
-                            <p class="kings">The encarnation of the Jaguar God, Liviak has risen into the mortal´s realm to punish with severe cruelty all who defies his law. </p>
+                            <p class="kings"><?php the_field("character_description4") ?> </p>
                         </div>
                     </div>
                     <div class="personaje">
-                        <h3 class="danger">Fluki</h3>
-                        <img src="../source/img/Fluki.jpg" alt="">
+                        <h3 class="danger"><?php the_field("character_image5"); ?></h3>
+                        <img src="<?php the_field("character_image5"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
-                            <p class="kings">She fights for the Dragon God and has declared war against all other clans that doesn’t praise him. Her fanatism has driven her fists into glorious deeds.</p>
+                            <p class="kings"><?php the_field("character_description5"); ?></p>
                         </div>
                     </div>
                     <div class="personaje">
-                        <h3 class="danger">Manqo</h3>
-                        <img src="../source/img/Manqo.jpg" alt="">
+                        <h3 class="danger"><?php the_field("character_name6"); ?></h3>
+                        <img src="<?php the_field("character_image6"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
-                            <p class="kings">He was sent from the gods to establish a secret mission. When its daylight, this fighter is nearly invincible, due to the Sun God, whom empowers him and his causes. </p>
+                            <p class="kings"><?php the_field("character_description6"); ?> </p>
                         </div>          
                      </div>
                     </li> 
