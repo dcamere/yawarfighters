@@ -55,7 +55,7 @@ get_header(); ?>
                     </div>
                     <div class="personaje">
                         <h3 class="danger"><?php the_field("character_name2"); ?></h3>
-                        <img src="<?php the_field("character_name2"); ?>" alt="">
+                        <img src="<?php the_field("character_image2"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
                             <p class="kings"><?php the_field("character_description2"); ?> </p>
                         </div>
@@ -70,14 +70,14 @@ get_header(); ?>
                   </li>
                   <li class="pjslide">
                     <div class="personaje">
-                        <h3 class="danger apai"><?php the_field("character_name4"); ?></h3>
+                        <h3 class="danger"><?php the_field("character_name4"); ?></h3>
                         <img src="<?php the_field("character_image4"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
                             <p class="kings"><?php the_field("character_description4") ?> </p>
                         </div>
                     </div>
                     <div class="personaje">
-                        <h3 class="danger"><?php the_field("character_image5"); ?></h3>
+                        <h3 class="danger"><?php the_field("character_name5"); ?></h3>
                         <img src="<?php the_field("character_image5"); ?>" alt="">
                         <div style="width:75%; text-align:center;margin-left:auto;margin-right:auto;"> 
                             <p class="kings"><?php the_field("character_description5"); ?></p>
